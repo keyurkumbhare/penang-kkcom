@@ -1,11 +1,5 @@
 <ul class='c-social-icons o-plain-list'>
-  {{#if @site.twitter}}
-    <li class='c-social-icons__item'>
-      <a href='{{ twitter_url }}' aria-label='Twitter' target='_blank' rel='noopener'>
-        <span class='c-social-icons__icon' data-icon='ei-sc-twitter' data-size='s'></span>
-      </a>
-    </li>
-  {{/if}}
+ 
 
   {{#if @site.facebook}}
     <li class='c-social-icons__item'>
@@ -16,16 +10,20 @@
   {{/if}}
 
   <li class='c-social-icons__item'>
-    <a href='#' aria-label='Instagram' target='_blank' rel='noopener'>
-      <span class='c-social-icons__icon' data-icon='ei-sc-instagram' data-size='s'></span>
+    <a href='https://www.linkedin.com/in/keyurkumbhare' aria-label='LinkedIn' target='_blank' rel='noopener'>
+      <span class='c-social-icons__icon' data-icon='ei-sc-linkedin' data-size='m'></span>
     </a>
   </li>
 
-  <li class='c-social-icons__item'>
-    <a href='#' aria-label='Pinterest' target='_blank' rel='noopener'>
-      <span class='c-social-icons__icon' data-icon='ei-sc-pinterest' data-size='s'></span>
-    </a>
-  </li>
+   {{#if @site.twitter}}
+    <li class='c-social-icons__item'>
+      <a href='{{ twitter_url }}' aria-label='Twitter' target='_blank' rel='noopener'>
+        <span class='c-social-icons__icon' data-icon='ei-sc-twitter' data-size='m'></span>
+      </a>
+    </li>
+  {{/if}}
+
+  
 
   <li class='c-social-icons__item'>
     <a href='/rss' aria-label='RSS' target='_blank' rel='noopener' title='RSS'>
