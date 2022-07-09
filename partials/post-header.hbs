@@ -40,6 +40,7 @@
                   <div class='c-post-header__author--image-wrap'>
                     <img class='c-post-header__author--image lazyload' data-src='{{ img_url profile_image size='xxs' }}' alt='' width='24' height='24'>
                   </div>
+                  <span class='c-post-header__date'>{{ reading_time minute=(t '1 min read') minutes=(t '% min read') }}</span>
                 {{/if}}
                 {{ name }}
               </a>
